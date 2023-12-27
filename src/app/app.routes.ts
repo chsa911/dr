@@ -1,3 +1,8 @@
-import { Routes } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
+import { BooksComponent } from '../app/books/books.component';
 
-export const routes: Routes = [];
+export const routes: Routes = [
+    {
+        path:'books', component:BooksComponent
+    }
+];
